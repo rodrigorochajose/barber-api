@@ -1,4 +1,6 @@
-# 💈 Sistema de Barbearia
+# 💈 Sistema de Barbearia - Back-end (Painel do Barbeiro)
+
+Este repositório contém o back-end do sistema de barbearia, focado na gestão de agenda e clientes por parte do **barbeiro**.
 
 Este projeto foi desenvolvido com dois principais objetivos:
 
@@ -7,43 +9,46 @@ Este projeto foi desenvolvido com dois principais objetivos:
 
 ---
 
-## 🎯 Objetivo
+## 📦 Sobre este Repositório
 
-Criar uma aplicação que facilite o agendamento de horários para clientes e otimize o controle da agenda para barbeiros. O sistema será dividido em duas partes:
+Este repositório faz parte de um sistema maior, dividido entre:
 
-### 👨‍🔧 Painel do Barbeiro
+- **Painel do Barbeiro (Back-end e Front-end)** → gerenciamento completo de agenda, clientes, serviços e finanças.
+- **Interface do Cliente (via WhatsApp)** → onde os clientes interagem com a barbearia de forma simples e direta.
 
-- Interface web responsiva, onde o barbeiro pode:
-  - Gerenciar sua agenda mensal, configurando dias e horários disponíveis ou indisponíveis.
-  - Cadastrar clientes fixos e associá-los a horários recorrentes.
-  - Agendar, cancelar e remarcar horários a qualquer momento.
-  - Ser notificado sobre todas as alterações de agendamento.
+Você está atualmente no repositório do **Back-end do Painel do Barbeiro**, responsável por toda a lógica de negócios, persistência de dados e comunicação com APIs externas.
+
+---
+
+## ⚙️ Funcionalidades do Back-end
+
+- Autenticação e gerenciamento de barbeiros.
+- Cadastro e gerenciamento de clientes fixos.
+- Agenda mensal:
+  - Definir dias e horários disponíveis ou indisponíveis.
+  - Marcar, cancelar e reagendar horários.
 - Cadastro de serviços e valores.
-- Módulo financeiro para controle de receitas.
-
-### 📱 Parte do Cliente
-
-- Toda a experiência do cliente será via **WhatsApp**, de forma simples e direta.
-- O cliente poderá:
-  - Agendar horários.
-  - Cancelar ou remarcar atendimentos.
-  - Receber confirmações e lembretes via mensagem.
+- Módulo financeiro (controle de atendimentos e receita).
+- Integração com API do WhatsApp para envio de notificações.
+- Comunicação com a interface web do barbeiro (front-end separado).
 
 ---
 
 ## 📚 Tecnologias e Conceitos Utilizados
 
-Durante o desenvolvimento, explorei diversos tópicos com foco em aprendizado e boas práticas:
+Durante o desenvolvimento, explorei os seguintes tópicos:
 
-- 🐳 **Docker**
-- 🔁 **CI/CD**
-- 🧪 **Testes unitários**
-- 💬 **API do WhatsApp**
-- 🤖 **Automação de processos**
+- 🐳 **Docker** — containerização da aplicação.
+- 🔁 **CI/CD** — automação de testes e deploy.
+- 🧪 **Testes unitários** — validação de regras de negócio.
+- 💬 **API do WhatsApp** — integração para comunicação com clientes.
+- 🤖 **Automação de processos** — envio automático de lembretes, confirmações etc.
 
 ---
 
 ## 🚧 Status do Projeto
 
 > Em desenvolvimento 🚀  
-Funcionalidades estão sendo implementadas e testadas continuamente.
+As principais funcionalidades estão sendo implementadas e testadas gradualmente.
+
+---
