@@ -38,11 +38,11 @@ Você está atualmente no repositório do **Back-end do Painel do Barbeiro**, re
 
 Durante o desenvolvimento, explorei os seguintes tópicos:
 
-- 🐳 **Docker** — containerização da aplicação.
-- 🔁 **CI/CD** — automação de testes e deploy.
-- 🧪 **Testes unitários** — validação de regras de negócio.
-- 💬 **API do WhatsApp** — integração para comunicação com clientes.
-- 🤖 **Automação de processos** — envio automático de lembretes, confirmações etc.
+- 🐳 **Docker**
+- 🔁 **CI/CD**
+- 🧪 **Testes unitários**
+- 💬 **API do WhatsApp**
+- 🤖 **Automação de processos**
 
 ---
 
