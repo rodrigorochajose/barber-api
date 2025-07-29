@@ -1,4 +1,4 @@
-import { Appointment as PrismaAppointment } from "generated/prisma";
+import { Appointment as PrismaAppointment } from 'generated/prisma';
 
 export class Appointment implements PrismaAppointment {
   id: number;
